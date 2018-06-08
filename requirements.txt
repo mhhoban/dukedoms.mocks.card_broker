@@ -1,0 +1,11 @@
+addict
+bravado
+connexion
+flask
+flask_api
+gunicorn
+psycopg2
+pyhamcrest
+pytest
+retrying
+sqlalchemy
