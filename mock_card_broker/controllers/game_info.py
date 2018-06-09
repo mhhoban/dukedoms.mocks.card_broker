@@ -3,16 +3,18 @@ from flask import request
 def get_player_state(playerId):
     pass
 
-def check_card_supply():
+def check_card_supply(gameId, cardId):
 
-    request_data = request.get_json()
-    if request_data['cardId'] % 2 > 0:
-        return {'cardId': request_data['cardId'], 'gameId': 1337, 'suppply': 10 }
+    if (cardId % 2) > 0:
+        return {'cardId': cardId, 'gameId': 1337, 'supply': 10 }
     else:
-        return {'cardId': request_data['cardId'], 'gameId': 1337, 'suppply': 0 }
+        return {'cardId': cardId, 'gameId': 1337, 'supply': 0 }
 
 def get_game_cards(gameId):
     """
     retrieve and return card state for given gameId
     """
+    pass
+
+def get_game_trash():
     pass
