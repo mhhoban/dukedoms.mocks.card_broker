@@ -16,5 +16,9 @@ def draw_player_card(playerId):
 
 def discard_player_card():
     return status.HTTP_200_OK
+
 def trash_player_card():
+    return status.HTTP_200_OK
+
+def curse_players():
     return status.HTTP_200_OK

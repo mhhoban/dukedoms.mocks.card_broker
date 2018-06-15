@@ -1,7 +1,7 @@
 from flask import request
 
 def get_player_state(playerId):
-    pass
+    return {'deck': [1,1,4,4,4], 'hand': [1,1,1,1,1], 'discard': []}
 
 def check_card_supply(gameId, cardId):
 
